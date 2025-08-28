@@ -56,6 +56,6 @@ Further information: [Konva API docs](https://konvajs.org/api/Konva.Rect.html), 
 	});
 
 	onDestroy(() => {
-		handle.destroy();
+		handle?.destroy();
 	});
 </script>

@@ -43,6 +43,6 @@ onMount(() => {
     registerEvents(dispatcher, handle);
 });
 onDestroy(() => {
-    handle.destroy();
+    handle?.destroy();
 });
 </script>
